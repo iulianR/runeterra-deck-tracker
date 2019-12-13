@@ -1,5 +1,12 @@
 [package]
 name = "runeterra-game-api"
+description = "Legends of Runeterra Game Client API"
+homepage = "https://github.com/iulianR/runeterra-deck-tracker/tree/master/runeterra-game-api"
+repository = "https://github.com/iulianR/runeterra-deck-tracker/tree/master/runeterra-game-api"
+documentation = "https://docs.rs/runeterra-game-api"
+license = "MIT"
+readme = "README.md"
+keywords = ["riot-games", "runeterra", "legends-of-runeterra"]
 version = "0.1.0"
 authors = ["Iulian Gabriel Radu <iulian.radu67@gmail.com>"]
 edition = "2018"
