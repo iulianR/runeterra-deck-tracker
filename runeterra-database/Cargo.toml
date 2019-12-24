@@ -1,0 +1,12 @@
+[package]
+name = "runeterra-database"
+version = "0.1.0"
+authors = ["Iulian Gabriel Radu <iulian.radu67@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-embed = { version = "5.2.0", features = ["interpolate-folder-path"] }
+serde = { version = "1.0.102", features = ["derive"] }
+serde_json = "1.0"
