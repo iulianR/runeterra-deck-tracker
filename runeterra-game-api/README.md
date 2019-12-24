@@ -1,8 +1,8 @@
 # Runeterra Game Client API
 
-Proxy API for the Legends of Runeterra [`Game Client API`]
+Proxy API for the Legends of Runeterra [Game Client API]
 
-[`Game Client API`]: https://developer.riotgames.com/docs/lor#game-client-api
+[Game Client API]: https://developer.riotgames.com/docs/lor#game-client-api
 
 ## Examples
 ```rust
