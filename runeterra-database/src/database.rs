@@ -21,7 +21,7 @@ pub struct Globals {
     pub rarities: Vec<Rarity>,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Region {
     pub abbreviation: String,
@@ -30,7 +30,7 @@ pub struct Region {
     pub name_ref: String,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Keyword {
     pub description: String,
@@ -38,14 +38,14 @@ pub struct Keyword {
     pub name_ref: String,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct SpellSpeed {
     pub name: String,
     pub name_ref: String,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Rarity {
     pub name: String,
@@ -55,7 +55,7 @@ pub struct Rarity {
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Collection(pub Vec<Card>);
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Card {
     pub associated_cards: Vec<String>,
@@ -86,7 +86,7 @@ pub struct Card {
     pub collectible: bool,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Asset {
     pub game_absolute_path: String,

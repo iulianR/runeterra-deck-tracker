@@ -1,5 +1,6 @@
 [workspace]
 members = [
-    "runeterra-game-api",
+    "runeterra-core",
     "runeterra-database",
+    "runeterra-game-api",
 ]
