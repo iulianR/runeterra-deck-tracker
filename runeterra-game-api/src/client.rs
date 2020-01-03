@@ -96,7 +96,7 @@ pub struct GameResult {
 }
 
 impl Client {
-    pub fn new(port: u16) -> Self {
+    pub fn new(#[cfg(not(test))] port: u16) -> Self {
         #[cfg(test)]
         let url = &mockito::server_url();
 
