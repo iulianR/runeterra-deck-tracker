@@ -1,3 +1,4 @@
+use rust_embed::RustEmbed;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug)]

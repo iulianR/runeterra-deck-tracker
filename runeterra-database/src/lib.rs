@@ -1,6 +1,3 @@
-#[macro_use]
-extern crate rust_embed;
-
 mod database;
 
 pub mod db {
